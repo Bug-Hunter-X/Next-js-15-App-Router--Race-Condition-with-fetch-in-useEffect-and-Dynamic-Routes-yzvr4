@@ -1,0 +1,1 @@
+In Next.js 15, App Router, unexpected behavior might occur when using `fetch` within a component's `useEffect` hook if the component is re-rendered before the initial fetch completes.  This can lead to race conditions and stale data issues.  The problem is exacerbated when using dynamic routes because of the asynchronous nature of the data fetching and routing.
